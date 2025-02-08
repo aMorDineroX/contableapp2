@@ -1,0 +1,9 @@
+
+{
+  "buildCommand": "next build",
+  "framework": "nextjs",
+  "installCommand": "npm install",
+  "env": {
+    "NEXT_PUBLIC_APP_URL": "https://syscohada.vercel.app"
+  }
+}

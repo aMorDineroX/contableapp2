@@ -1,0 +1,5 @@
+{
+  "java.compile.nullAnalysis.mode": "automatic",
+  "editor.tabCompletion": "on",
+  "diffEditor.codeLens": true
+}
