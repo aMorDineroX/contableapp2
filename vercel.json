@@ -1,9 +1,15 @@
-
 {
-  "buildCommand": "next build",
-  "framework": "nextjs",
+  "version": 2,
+  "buildCommand": "npm run build",
   "installCommand": "npm install",
+  "framework": "nextjs",
   "env": {
-    "NEXT_PUBLIC_APP_URL": "https://syscohada.vercel.app"
-  }
+    "NEXT_PUBLIC_APP_URL": "https://contableapp2.vercel.app"
+  },
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ]
 }

@@ -1,120 +1,115 @@
 <div align="center">
-  <h1>🌍 SYSCOHADA</h1>
-  <p><strong>Système de Comptabilité Moderne pour l'Afrique</strong></p>
-  <p>
-    <a href="#-fonctionnalités">Fonctionnalités</a> •
-    <a href="#-démarrage-rapide">Démarrage</a> •
-    <a href="#-documentation">Documentation</a> •
-    <a href="#-support">Support</a>
-  </p>
-  <p align="center">
-    <img src="public/dashboard-preview.png" alt="Dashboard Preview" width="800">
-  </p>
+  <img src="public/logo.png" alt="SYSCOHADA Logo" width="120" height="120"/>
+  <h1>SYSCOHADA</h1>
+  <p>Système de Comptabilité Moderne pour l'Afrique</p>
+  
+  [![Vercel](https://img.shields.io/badge/Vercel-Deployed-black?logo=vercel)](https://syscohada.vercel.app)
+  [![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)](https://nextjs.org)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue?logo=typescript)](https://typescriptlang.org)
+  [![Auth0](https://img.shields.io/badge/Auth0-Secured-orange?logo=auth0)](https://auth0.com)
 </div>
 
-## ✨ Fonctionnalités Principales
+## 🌟 Caractéristiques
+
+- 📊 **Dashboard Interactif**
+  - Visualisation en temps réel des données financières
+  - Graphiques et tableaux dynamiques
+  - KPIs personnalisables
+
+- 🔒 **Sécurité Enterprise**
+  - Authentification Auth0
+  - SSL/TLS
+  - Gestion avancée des rôles
+
+- 💼 **Fonctionnalités Comptables**
+  - Plan comptable SYSCOHADA
+  - Grand livre et balance
+  - États financiers automatisés
+
+- 🎨 **Interface Moderne**
+  - Design responsive
+  - Thème clair/sombre
+  - Animations fluides
+
+## 🚀 Démarrage Rapide
+
+### Prérequis
+
+- Node.js 18+
+- NPM ou Yarn
+- Compte Auth0
+
+### Installation
+
+```bash
+# Cloner le projet
+git clone https://github.com/votre-compte/syscohada.git
+
+# Installer les dépendances
+npm install
+
+# Configurer l'environnement
+cp .env.example .env.local
+
+# Démarrer en développement
+npm run dev
+```
+
+## 🛠 Technologies
 
 <div align="center">
   <table>
     <tr>
-      <td align="center">📊</td>
-      <td><strong>Tableau de Bord Interactif</strong><br/>Visualisation en temps réel des données financières</td>
-      <td align="center">📜</td>
-      <td><strong>Normes SYSCOHADA</strong><br/>Conformité totale avec la réglementation</td>
-    </tr>
-    <tr>
-      <td align="center">🔒</td>
-      <td><strong>Sécurité Avancée</strong><br/>Authentification Auth0 et chiffrement SSL</td>
-      <td align="center">📱</td>
-      <td><strong>Design Responsive</strong><br/>Interface adaptative sur tous les appareils</td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg" width="40"/>
+        <br />Next.js 14
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="40"/>
+        <br />TypeScript
+      </td>
+      <td align="center">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg" width="40"/>
+        <br />Tailwind
+      </td>
     </tr>
   </table>
 </div>
 
-## 🚀 Démarrage Rapide
+## 📚 Documentation
 
-## 📋 Prérequis
-
-- Node.js 18+
-- NPM ou Yarn
-- Certificats SSL locaux pour HTTPS
-
-## 🛠 Installation
-
-1. Cloner le repository
-
-```bash
-git clone [url-du-repo]
-cd contableapp2
-```
-
-2. Installer les dépendances
-
-```bash
-npm install
-```
-
-3. Configurer les variables d'environnement
-
-```bash
-cp .env.example .env.local
-```
-
-4. Lancer le serveur de développement
-
-```bash
-npm run dev
-```
-
-## 🔒 Configuration de la Sécurité
-
-### Variables d'environnement requises:
-
-- NEXTAUTH_URL
-- NEXTAUTH_SECRET
-- AUTH0_BASE_URL
-- AUTH0_ISSUER_BASE_URL
-- AUTH0_CLIENT_ID
-- AUTH0_CLIENT_SECRET
-- AUTH0_SECRET
-
-## 📚 Documentation Technique
-
-### Stack Technique
-
-- Next.js 14
-- TypeScript
-- Tailwind CSS
-- Auth0
-- Zustand
-- React Query
-- Jest pour les tests
-
-### Architecture
-
-```
-/app           - Pages et routes Next.js
-/components    - Composants réutilisables
-/hooks         - Custom hooks React
-/lib          - Utilitaires et configurations
-/public        - Assets statiques
-/styles        - Styles globaux
-```
-
-## 🧪 Tests
-
-```bash
-npm run test
-```
-
-## 📝 License
-
-[Votre licence]
+- [Guide d'Installation](docs/installation.md)
+- [Architecture](docs/architecture.md)
+- [API Reference](docs/api-reference.md)
+- [FAQ](docs/faq.md)
 
 ## 🤝 Contribution
 
-[Instructions pour contribuer au projet]
+1. Fork le projet
+2. Créer une branche (`git checkout -b feature/AmazingFeature`)
+3. Commit les changements (`git commit -m 'Add AmazingFeature'`)
+4. Push la branche (`git push origin feature/AmazingFeature`)
+5. Ouvrir une Pull Request
 
-## 👥 Auteurs
+## 📝 Licence
 
-[Vos informations]
+Copyright © 2024 SYSCOHADA. Tous droits réservés.
+
+## 📬 Contact
+
+- Email: contact@syscohada.com
+- Twitter: [@syscohada](https://twitter.com/syscohada)
+- Site: [https://syscohada.com](https://syscohada.com)
+
+## 🌍 Communauté
+
+- [Discord](https://discord.gg/syscohada)
+- [Forum](https://forum.syscohada.com)
+- [Blog](https://blog.syscohada.com)
+
+---
+
+<div align="center">
+  <p>Développé avec ❤️ pour la communauté comptable africaine</p>
+  <img src="public/dashboard-preview.png" alt="Dashboard Preview" width="100%"/>
+</div>

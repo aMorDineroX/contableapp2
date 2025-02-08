@@ -15,7 +15,8 @@
     "clean": "powershell -NoProfile -ExecutionPolicy Bypass -Command \"& { Import-Module ./scripts/Utf8Helpers.psm1 -Force; . './clean-cache.ps1' }\"",
     "type-check": "tsc --noEmit",
     "format": "prettier --write .",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "vercel-build": "prisma generate && next build"
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "3.5.0",
